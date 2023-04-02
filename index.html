@@ -10,16 +10,26 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
     <script src="libraries/p5.min.js"></script>
     <script src="libraries/p5.sound.min.js"></script>
   </head>
 
-  <body>
+  <body id="body">
+
+    <div class="inst">
+      <p>Double click: toggle fullscreen</p>
+    </div>
     <script src="sketch.js"></script>
     <script src="Dot.js"></script>
     <script src="./src/CCapture.js"></script>
     <script src="./src/download.js"></script>
     <script src="./src/webm-writer-0.2.0.js"></script>
+
+    
 
     <script>
       var capturer = new CCapture({

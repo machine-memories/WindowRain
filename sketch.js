@@ -68,4 +68,17 @@ function keyPressed(){
   }
 }
 
+let body = document.querySelector("#body")
+
+window.addEventListener('dblclick', () =>
+{
+  if(!document.fullscreenElement)
+  {
+    body.requestFullscreen()
+  }
+  else
+  {
+    document.exitFullscreen()
+  }
+})
 

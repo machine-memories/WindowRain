@@ -1,6 +1,8 @@
+
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #000000;
 }
 
 canvas {
@@ -18,4 +20,13 @@ canvas {
   left: 50%;
   top: 5%;
   transform: translate(-50%, -50%);
+}
+
+.inst{
+  color: white;
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
 }
